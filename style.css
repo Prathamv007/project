@@ -1,0 +1,243 @@
+ .html{
+    font-size:calc(.75vh+.75vw);
+} 
+.body{
+    background-color: #58687E;
+    padding:0;
+    margin:0;
+  
+
+}
+
+
+.logo{
+    margin-top:2rem;
+
+
+}
+.logo1{
+    position: relative;
+left: 1.33rem;
+width: 15.05vw;
+height: 5vh;
+
+}
+.logo2{
+   
+   
+  position: relative;
+    left: 37.44rem;
+    width: 12.23vw;
+    height: 5vh;
+}
+.invoice{
+   
+margin-top: 3rem;
+margin-left:1.4rem;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+
+text-align: left;
+font-family: Ubuntu;
+font-size:2rem;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+ }
+/* modal css */ 
+.main-body{
+    margin-top: 4rem;
+margin-left: 1rem;
+margin-right: 1rem;
+width: 118rem;
+height: 51rem;border-radius: 10px;
+opacity: 1;
+    background: #273D49CC 0% 0% no-repeat padding-box;
+}
+.buttons{
+    top: 180px;
+    left: 1136px;
+    width: 384px;
+    height: 67px;
+    opacity: 1;
+}
+.box1 {
+    position: absolute;
+    margin-top: 30px;
+  margin-left:1126px;
+  width: 99px;
+  height: 45px;
+    
+
+    border: 1px solid #14AFF1;
+border-radius: 10px;
+opacity: 1;
+  }
+  .add-button {
+    position: relative;
+    font-size: 30px;
+   padding:20px;
+   
+
+   opacity: 1; 
+   text-align: center;
+   margin-top:30px;
+   color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+
+  }
+  .box2 {
+    position: absolute;
+    margin-top: 30px;
+  margin-left:1255px;
+  width: 99px;
+  height: 45px;
+    
+
+    border: 1px solid #14AFF1;
+border-radius: 10px;
+opacity: 1;
+  }
+  .edit-button{
+    position: relative;
+    font-size: 30px;
+   padding:20px;
+   
+
+   opacity: 1; 
+   text-align: center;
+   margin-top:30px;
+   color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .box3 {
+    position: absolute;
+    margin-top: 30px;
+  margin-left:1377px;
+
+  width: 123px;
+  height: 45px;
+    
+
+    border: 1px solid #14AFF1;
+border-radius: 10px;
+opacity: 1;
+  }
+  .delete-button{
+    position: relative;
+    font-size: 30px;
+   padding:20px;
+   
+
+   opacity: 1; 
+   text-align: center;
+   margin-top:30px;
+   color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  #vsearch{
+    position: absolute;
+    text-align: left;
+font: normal normal normal 18px/21px Ubuntu;
+letter-spacing: 0px;
+color: #97A1A9;
+opacity: 1;
+    font-size:20px;
+    width: 340px;
+    height: 45px;
+    margin-top: 30px;
+  margin-left:1520px;
+    background: #283A46 0% 0% no-repeat padding-box;
+    border: 1px solid #14AFF1;
+    border-radius: 10px;
+    opacity: 1;
+  }
+  #search-image{
+    position: absolute;
+    margin-top: 40px;
+    margin-left:1800px;
+    
+
+width: 32px;
+height: 32px;
+opacity: 1;
+  }
+  
+  /* table css */
+  .tabla {
+    margin-top:30px;
+    overflow-y: auto;
+    height: 700px;
+    
+    font-size: medium;
+  }
+  .tabla thead th {
+    position: sticky;
+    top: 0;
+    opacity: 10;
+  }
+
+  table {
+    overflow-y: scroll;
+  height: calc(100% - 80px);
+    border-collapse: collapse;  
+    border-radius: 4px;      
+    width: 100%;font-size: 20px;
+  }
+  th,
+  td {
+    left:20px;
+    padding: 8px 15px;
+    text-align: centre;
+  }
+  th {
+    background: #273D49CC;
+ }
+ tr{
+   text-align: centre;
+   color: #FFFFFF;
+ }
+tr:nth-child(odd){
+background-color: #283A46;
+}
