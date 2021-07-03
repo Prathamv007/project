@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
  .html{
     font-size:calc(.75vh+.75vw);
 } 
@@ -61,6 +63,7 @@ opacity: 1;
     width: 384px;
     height: 67px;
     opacity: 1;
+    
 }
 .box1 {
     position: absolute;
@@ -69,7 +72,7 @@ opacity: 1;
   width: 99px;
   height: 45px;
     
-
+  z-index:0;
     border: 1px solid #14AFF1;
 border-radius: 10px;
 opacity: 1;
@@ -88,7 +91,105 @@ opacity: 1;
     cursor: pointer;
 
   }
-  .box2 {
+  .add-header{
+    
+    background: #2A3E4C 0% 0% no-repeat padding-box;
+    border-radius: 10px 10px 0px 0px;
+    opacity: 1;
+    width: 1106px;
+    height: 91px;
+    top: 250px;
+
+  }
+  
+.required
+{
+    color: red;
+}
+
+  .block label {margin:10px; 
+  display: inline-block;
+     top: 0px;
+left: 0px;
+width: 200px;
+height: 30px;
+margin-left: 30px;
+font-size: 1.5rem;
+font-family: 'Ubuntu', sans-serif;
+text-align: left;
+
+letter-spacing: 0.19px;
+color: #97A1A9;
+
+ 
+      }
+      .block-2 label{
+        margin-left:200px;
+        float: left;
+      }
+      .inputs{
+        width: 300px;
+        font-size:2rem;
+height: 45px;
+background: #283A46 0% 0% no-repeat padding-box;
+border: 1px solid #356680;
+border-radius: 10px;
+opacity: 1;
+      }
+      .input1{ font-size:2rem;
+        width: 300px;
+        margin-left:750px;
+height: 45px;
+background: #283A46 0% 0% no-repeat padding-box;
+border: 1px solid #356680;
+border-radius: 10px;
+opacity: 1;
+      }
+  .add-header-title{
+    position: absolute;
+    
+top:25px;
+left:25px;
+bottom: 25px;;
+width: 147px;
+height: 31px;
+text-align: center;
+font-style: normal;
+font: normal normal normal 28px/32px Ubuntu;
+letter-spacing: 0px;
+color: #FFFFFF;
+
+opacity: 1;
+  }
+  .block-2 label{
+    position: relative;
+    float: right; clear: both;
+    margin-right: 400px;
+    top: 0px;
+left: 0px;font-size:1.5rem ;
+width: px;
+height: 23px;
+text-align: left;
+
+letter-spacing: 0.19px;
+color: #97A1A9;
+  }
+
+ .button-cancel{
+   margin-top:30px;
+   margin-left:40px;
+  width: 70px;
+  height: 40px;
+  text-align: left;
+  font-size: 2rem;
+  font: normal normal normal 20px/24px Ubuntu;
+  letter-spacing: 0px;
+  color: #14AFF1;
+  border-radius: 0px;
+  background-color: #283A46;
+  opacity: 1;
+ }
+  .box2 { z-index:0;
     position: absolute;
     margin-top: 30px;
   margin-left:1255px;
@@ -113,7 +214,7 @@ opacity: 1;
     text-decoration: none;
     cursor: pointer;
   }
-  .box3 {
+  .box3 { z-index:0;
     position: absolute;
     margin-top: 30px;
   margin-left:1377px;
@@ -155,15 +256,24 @@ opacity: 1;
     opacity: 1;
   }
   .popup {
+    background: #2A3E4C 0% 0% no-repeat padding-box;
+box-shadow: 0px 8px 24px #00000029;
+border-radius: 6px;
+opacity: 1;
+    top: 260px;
+margin-left: 180px;
+    z-index: 1;
     margin: 70px auto;
-    padding: 20px;
-    background: #fff;
+    
+    
     border-radius: 5px;
-    width: 30%;
+    width: 1106px;
+    height: 555px;
     position: relative;
-    transition: all 5s ease-in-out;
+    /* transition: all 5s ease-in-out; */
   }
   .popup .close {
+    overflow-x: auto;
     position: absolute;
     top: 20px;
     right: 30px;
@@ -214,25 +324,38 @@ opacity: 1;
   }
   .tabla thead th {
     position: sticky;
-    top: 0;
-    opacity: 10;
+    top: 0px;
+    z-index: 0; 
+    
   }
 
   table {
-    overflow-y: scroll;
-  height: calc(100% - 80px);
+    
+  
     border-collapse: collapse;  
     border-radius: 4px;      
     width: 100%;font-size: 20px;
   }
+
+  
   th,
   td {
+    
     left:20px;
     padding: 8px 15px;
     text-align: centre;
   }
-  th {
+  .table th{
+    position: sticky;
+    top: 0;
+   
+    background: #fff;
+    
+  }    th {
+    position: sticky;
+  top: 0; /* Don't forget this, required for the stickiness */
     background: #273D49CC;
+  
  }
  tr{
    text-align: centre;
